@@ -31,10 +31,12 @@ public class LineComparison {
         double length2 = Math.sqrt((double)((a2 - a1) * (a2 - a1) + (b2 - b1) * (b2 - b1)));
         System.out.println("The line length 2 is :" + length2);
 
-        if(length1==length2){
-            System.out.println("The length of line 1 (" +length1+ ") is equal to length 2 (" +length2+ ")");
-        }else {
-            System.out.println("The length of line 1 (" +length1+ ") is not equal to length 2 (" +length2+ ")");
+        if (length1 > length2) {
+            System.out.println(" Line 1 is grater than line 2");
+        } else if (length1 < length2) {
+            System.out.println("Line 1 is shorter than line 2");
+        } else {
+            System.out.println("Both lines are equal ");
         }
     }
 }
