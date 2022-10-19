@@ -16,8 +16,5 @@ public class LineComparison {
         System.out.println("Enter the value of Y2 in line 1");
         int y2 = Sc.nextInt();
 
-        double length1 = Math.sqrt((double)((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1)));
-        System.out.println("The line length 1 is :" + length1);
-        
     }
 }
