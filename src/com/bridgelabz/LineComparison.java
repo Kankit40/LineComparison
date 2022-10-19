@@ -15,7 +15,7 @@ public class LineComparison {
         int x2 = Sc.nextInt();
         System.out.println("Enter the value of Y2 in line 1");
         int y2 = Sc.nextInt();
-
+        
         // input co=ordinate of line 1
         System.out.println("Enter the value of X1 in line 2");
         int a1 = Sc.nextInt();
@@ -37,5 +37,6 @@ public class LineComparison {
         }else {
             System.out.println("The length of line 1 (" +length1+ ") is not equal to length 2 (" +length2+ ")");
         }
+
     }
 }
