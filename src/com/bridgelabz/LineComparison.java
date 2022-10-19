@@ -16,5 +16,6 @@ public class LineComparison {
         System.out.println("Enter the value of Y2 in line 1");
         int y2 = Sc.nextInt();
 
+
     }
 }
