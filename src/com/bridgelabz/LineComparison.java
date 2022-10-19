@@ -31,6 +31,7 @@ public class LineComparison {
         double length2 = Math.sqrt((double)((a2 - a1) * (a2 - a1) + (b2 - b1) * (b2 - b1)));
         System.out.println("The line length 2 is :" + length2);
 
+        
         if(length1==length2){
             System.out.println("The length of line 1 (" +length1+ ") is equal to length 2 (" +length2+ ")");
         }else {
